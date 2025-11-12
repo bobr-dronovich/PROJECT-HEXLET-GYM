@@ -92,7 +92,6 @@ header {
 }
 
 #buttons {
-  background-color: -;
   width: 800px;
   height: 115px;
   position: absolute;
@@ -138,7 +137,7 @@ header {
   background-image: url("img/bg.jpg");
   background-size: cover;
   width: 100%;
-  min-height: 728px
+  min-height: 728px;
   display: flex;
   align-items: stretch;
   position: absolute;
