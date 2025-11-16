@@ -22,6 +22,7 @@
 
 body {
   margin: 0px;
+  overflow-x: hidden;
 }
 #headerTop {
   height: 115px;
@@ -99,7 +100,6 @@ header {
   right: 0;
   display: flex;
   align-items: center;
-  
 }
 #rasspisanie {
   padding-left: 20px;
@@ -124,7 +124,7 @@ header {
 }
 
 .tripalki:hover {
-    fill: rgb(172, 172, 172);
+  fill: rgb(172, 172, 172);
 }
 #block_header_promo {
   max-width: 100%;
@@ -146,7 +146,7 @@ header {
   top: 0;
   left: 0;
 }
-#header_promo_naming{
+#header_promo_naming {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -186,7 +186,6 @@ header {
   display: flex;
   padding: 20px 10px 30px;
   flex-direction: column;
-  
 }
 .general_text {
   font-family: Benzin-bold;
@@ -201,7 +200,6 @@ header {
   font-family: Benzin-bold;
   text-align: center;
   justify-content: center;
-  
 }
 #general_block_info {
   padding-top: 52px;
@@ -218,15 +216,12 @@ header {
   background-color: rgb(255, 255, 255);
   flex-direction: column;
   justify-content: center;
-  align-items: center
-
-
+  align-items: center;
 }
 .general_icons {
   width: 108px;
   height: 67px;
   padding-bottom: 20px;
-
 }
 #general_icons {
   width: 108px;
@@ -242,15 +237,12 @@ header {
   font-size: 15px;
 }
 
-
 #treners_info {
   position: relative;
   width: 100%;
   min-height: 615px;
   padding: 20px 10px 30px;
   background-color: rgb(37, 37, 37);
- 
-  
 }
 .treners_photos {
   width: 250px;
@@ -261,15 +253,15 @@ header {
   color: rgb(255, 199, 54);
   font-size: 48px;
   padding-top: 35px;
-  padding-bottom: 35px;
+  padding-bottom: 55px;
   display: flex;
   justify-content: center;
+  padding-top: ;
 }
-#treners_photos{
+#treners_photos {
   display: flex;
   gap: 50px;
   justify-content: center;
-
 }
 .treners {
   text-align: center;
@@ -287,4 +279,219 @@ header {
   font-size: 15px;
   color: rgb(255, 255, 255);
 }
+#abonimens {
+  position: relative;
+  width: 100%;
+  min-height: 200px;
+  padding: 20px 0px 30px ;
+  background-color: rgb(255, 199, 54);
+}
+#abonimens_name_block {
+  font-family: Benzin-bold;
+  color: rgb(37, 37, 37);
+  font-size: 48px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  display: flex;
+  justify-content: center;
+}
+#months1 {
+  padding-bottom: 50px;
+  w
+}
+.months2 {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
 
+.month {
+  font-family: Benzin-bold;
+  font-size: 21px;
+  color: rgb(255, 199, 54);
+  width: 100%;
+  height: 60px;
+  background-color: rgb(37, 37, 37);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.abonimens_BLOCK {
+  gap: 25px;
+  display: flex;
+  justify-content: center;
+}
+.abonimens_block {
+  width: 356px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 20px 20px 20px;
+  position: relative;
+  transition: all 0.2s;
+}
+.abonimens_block:hover {
+  scale: 1.025;
+}
+
+#top_abonimens_block_info {
+  position: absolute;
+  top: -10px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+#abonimens_span {
+  background: #010000;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: Sans;
+  font-size: 14px;
+  padding: 3px 20px;
+}
+.abonimens_block_name {
+  font-family: Med;
+  font-size: 26px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+.abonimens_block_info_place {
+  display: flex;
+}
+.abonimens_block_info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-family: Med;
+  font-size: 20px;
+  list-style-image: url(styles/icon_ok.svg);
+  line-height: 26px;
+  padding-bottom: 25px;
+}
+.item_abonement .item_list li {
+  padding-left: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  background: url(styles/icon_ok.svg) left center no-repeat;
+}
+.block_oplata {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+#old_block_oplata {
+  font-family: Benzin-bold;
+  font-size: 20px;
+  color: rgb(99, 99, 99);
+  padding-bottom: 20px;
+  text-decoration: line-through;
+}
+.mini_oplata {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.abonimens_block_cost {
+  font-family: Benzin-bold;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  padding-bottom: 20px;
+  text-decoration: underline;
+}
+.abonimens_block_buy_button {
+  font-family: Benzin-bold;
+  font-size: 21px;
+  color: rgb(255, 199, 54);
+  width: 100%;
+  height: 60px;
+  background-color: rgb(37, 37, 37);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mini_oplata :hover {
+  background-color: rgb(69, 69, 69);
+}
+
+#map {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+  padding-bottom: 75px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#map_nazvanie {
+  font-family: Benzin-bold;
+  color: rgb(0, 0, 0);
+  font-size: 48px;
+  padding-top: 35px;
+  padding-bottom: 55px;
+  display: flex;
+  justify-content: center;
+  padding-top: ;
+}
+#footer {
+  height: 300px;
+  background-color: rgb(37, 37, 37);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding-left: 125px;
+  padding-right: 125px;
+  padding-top: 25px;
+}
+#highthfooter {
+  display: flex;
+  align-items: right;
+}
+#fit2 {
+  height: 100px;
+}
+
+#footer_text {
+  text-align: left;
+  color: white;
+  font-family: Sans;
+
+}
+#licenze_footer {
+  font-family: Sans;
+  display: flex;
+  align-items: right;
+}
+
+#lowfooter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  width: 100%;
+  align-items: baseline;
+  
+}
+#licenze_footer {
+  font-family: Sans;
+  font-size: 16px;
+  color: white;
+
+}
+#logos {
+  display: flex;
+  gap: 32px;
+
+  & img {
+      width: 32px;
+      height: 32px;
+    }
+}
