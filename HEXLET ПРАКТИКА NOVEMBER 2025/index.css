@@ -24,9 +24,12 @@ body {
   margin: 0px;
   overflow-x: hidden;
 }
+
 a {
   text-decoration: none;
 }
+
+
 #headerTop {
   height: 115px;
   background-color: rgb(0, 0, 0);
@@ -759,6 +762,12 @@ border: none;
 }
 
 #block_burger_mavigation_5 {
+  font-family: Benzin-bold;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  padding-bottom: 25px;
+}
+#block_burger_mavigation_6 {
   font-family: Benzin-bold;
   font-size: 35px;
   color: rgb(255, 255, 255);

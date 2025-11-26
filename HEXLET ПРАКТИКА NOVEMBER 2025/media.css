@@ -1,0 +1,1794 @@
+@media screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+
+  html {
+    margin: 0px;
+    overflow-x: hidden;
+  }
+
+  #headerTop {
+    height: 115px;
+    background-color: rgb(0, 0, 0);
+  }
+
+  .hightheader {
+    height: 115px;
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 25px;
+
+    & img {
+      color: white;
+    }
+  }
+
+  .fit {
+    display: none;
+  }
+
+  #phoneIcon {
+    display: none;
+  }
+
+  .contact_phone {
+    display: none;
+  }
+
+  #contactPhone:hover {
+    display: none;
+  }
+
+  .timeWorking {
+    display: none;
+  }
+
+  #ContactPhone {
+    display: none;
+  }
+
+  #Watsapp {
+    display: none;
+  }
+
+  #rasspisanie {
+    display: none;
+  }
+
+  #rasspisanie:hover {
+    display: none;
+  }
+
+  #obratzvonoc {
+    display: none;
+  }
+
+  #obratzvonoc:hover {
+    display: none;
+  }
+
+  .tripalki {
+    padding-left: 750px;
+  }
+
+  .tripalki:hover {
+    fill: rgb(172, 172, 172);
+  }
+
+  #block_header_promo {
+    display: flex;
+    align-items: stretch;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #header_promo_img {
+    background-image: url(img/472944927_1000255292233796_1672655395699380595_n.png);
+    background-size: cover;
+    background: ;
+    display: flex;
+    align-items: stretch;
+    position: absolute;
+
+    z-index: -1;
+    top: 0;
+    left: 0;
+  }
+
+  #header_promo_naming {
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header_logo:hover {
+    fill: rgb(172, 172, 172);
+  }
+
+  .naming {
+    font-family: Benzin-bold;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+  }
+
+  .under_naming {
+    font-family: Benzin-bold;
+    font-size: 22px;
+    color: rgb(255, 199, 54);
+    padding-bottom: 25px;
+    text-align: center;
+  }
+
+  .under_naming_info {
+    font-family: Sans;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+
+  #block_general {
+    position: relative;
+    width: 100%;
+    min-height: 450px;
+    display: flex;
+    padding: 20px 10px 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .general_text {
+    font-family: Benzin-bold;
+    color: rgb(255, 199, 54);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+
+  .general_info {
+    font-family: Benzin-bold;
+    text-align: center;
+    justify-content: center;
+  }
+
+  #general_block_info {
+    padding-top: 52px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .general_block {
+    width: 350px;
+    height: 225px;
+    display: flex;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .general_icons {
+    width: 108px;
+    height: 67px;
+    padding-bottom: 20px;
+  }
+
+  #general_icons {
+    width: 108px;
+    height: 60px;
+    padding-bottom: 20px;
+  }
+
+  .general_block_info_text_top {
+    font-family: Benzin-bold;
+    font-size: 18px;
+  }
+
+  .general_block_info_text_down {
+    font-family: Sans;
+    font-size: 15px;
+  }
+
+  #treners_info {
+    position: relative;
+
+    padding: 20px 10px 30px;
+    background-image: url(img/bg_treners.webp);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #treners_photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .treners {
+    width: calc(50% - 15px);
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #treners_name_block {
+    font-family: Benzin-bold;
+    color: rgb(255, 199, 54);
+    font-size: 48px;
+    padding-top: 35px;
+    padding-bottom: 55px;
+    display: flex;
+    justify-content: center;
+  }
+  #treners_photos {
+  display: flex;
+  
+  justify-content: center;
+}
+.treners {
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.2s;
+}
+.treners:hover {
+  scale: 1.025;
+}
+
+.trenes_block_info_top {
+  font-family: Sans;
+  font-size: 14px;
+  color: rgb(255, 199, 54);
+  padding-bottom: 5px;
+}
+.trenes_block_info_down {
+  font-family: Benzin-bold;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+}
+#abonimens {
+  position: relative;
+  width: 100%;
+  min-height: 200px;
+  padding: 20px 0px 30px ;
+  background-color: rgb(255, 199, 54);
+}
+#abonimens_name_block {
+  font-family: Benzin-bold;
+  color: rgb(37, 37, 37);
+  font-size: 35px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  display: flex;
+  justify-content: center;
+}
+#months1 {
+  padding-bottom: 50px;
+}
+.months2 {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.month {
+  font-family: Benzin-bold;
+  font-size: 21px;
+  color: rgb(255, 199, 54);
+  width: 100%;
+  height: 60px;
+  background-color: rgb(37, 37, 37);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.abonimens_BLOCK {
+  gap: 25px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.abonimens_block {
+  width: calc(40% - 12.5px);
+  max-width: 356px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 20px 20px 20px;
+  position: relative;
+  transition: all 0.2s;
+}
+.abonimens_block:hover {
+  scale: 1.025;
+}
+
+#top_abonimens_block_info {
+  position: absolute;
+  top: -10px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+#abonimens_span {
+  background: #010000;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: Sans;
+  font-size: 14px;
+  padding: 3px 20px;
+}
+.abonimens_block_name {
+  font-family: Med;
+  font-size: 26px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+.abonimens_block_info_place {
+  display: flex;
+}
+.abonimens_block_info {
+  display: none;
+}
+.item_abonement .item_list li {
+  padding-left: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  background: url(styles/icon_ok.svg) left center no-repeat;
+}
+.block_oplata {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+#old_block_oplata {
+  font-family: Benzin-bold;
+  font-size: 20px;
+  color: rgb(99, 99, 99);
+  padding-bottom: 20px;
+  text-decoration: line-through;
+}
+.mini_oplata {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.abonimens_block_cost {
+  font-family: Benzin-bold;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  padding-bottom: 20px;
+  text-decoration: underline;
+}
+.abonimens_block_buy_button {
+  font-family: Benzin-bold;
+  font-size: 21px;
+  color: rgb(255, 199, 54);
+  width: 100%;
+  height: 60px;
+  background-color: rgb(37, 37, 37);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mini_oplata :hover {
+  background-color: rgb(69, 69, 69);
+}
+
+#map {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+  padding-bottom: 75px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#map_nazvanie {
+  font-family: Benzin-bold;
+  color: rgb(0, 0, 0);
+  font-size: 35px;
+  padding-top: 35px;
+  padding-bottom: 55px;
+  display: flex;
+  justify-content: center;
+}
+#footer {
+  height: 200px;
+  background-color: rgb(37, 37, 37);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+#highthfooter {
+  display: flex;
+  align-items: right;
+}
+#fit2 {
+  height: 100px;
+}
+
+#footer_text {
+  display: none;
+
+}
+#licenze_footer {
+  font-family: Sans;
+  display: flex;
+  align-items: right;
+}
+
+#lowfooter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  width: 100%;
+  align-items: baseline;
+  
+}
+#licenze_footer {
+  font-family: Sans;
+  font-size: 16px;
+  color: white;
+
+}
+#logos {
+  display: flex;
+  gap: 32px;
+
+  & img {
+      width: 32px;
+      height: 32px;
+    }
+}
+#buyer {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+  padding-bottom: 575px;
+}
+.abonimens_block_info{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-family: Med;
+  font-size: 20px;
+  list-style-image: url(styles/icon_ok.svg);
+  line-height: 26px;
+  padding-bottom: 25px;
+}
+#block_way_to_buyer {
+  padding-top: 5px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+#papa {
+  height: 100%;
+}
+#buyer_abonimens_block {
+  background-color: rgb(255, 199, 54);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 20px 20px 20px;
+  position: relative;
+  transition: all 0.2s;
+  border: 3px solid rgb(0, 0, 0);
+}
+.abonimens_block_info {
+ display: none;
+}
+#abonimens_block_cost_buyer{
+  font-family: Benzin-bold;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  padding-bottom: 20px;
+  padding-top: 15px;
+}
+i2 {
+  text-decoration: underline;
+}
+
+#info_for_buy{
+  background-color: rgb(255, 255, 255);
+  padding-left: 0px;
+  padding-top: 75px;
+}
+
+#block_abonimens_block_cost_naming{
+  font-family: Benzin-bold;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  padding-bottom: 5px;
+}
+#oformlenie {
+  font-family: Sans;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+.name{
+  font-family: Med;
+  font-size: 25px;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 3px solid black;
+}
+#nickname{
+  font-family: Med;
+  font-size: 25px;
+  background-color: rgb(255, 255, 255);
+  
+  
+}
+#email{
+  font-family: Med;
+  font-size: 25px;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 3px solid black;
+}
+#mail{
+  font-family: Med;
+  font-size: 25px;
+  background-color: rgb(255, 255, 255);
+}
+
+#form-example{
+  padding-bottom: 15px;
+}
+.input{
+  border: none;
+}
+#bank {
+  padding: 20px;
+  border: 3px solid black;
+  text-align: left;
+  width: 500px;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+#date {
+  font-family: Med;
+  font-size: 25px;
+  
+}
+#card_number {
+  font-family: Med;
+  font-size: 15px;
+}
+#button_css {
+  font-family: Med;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(37, 37, 37);
+  border: none;
+  border: 3px solid rgb(37, 37, 37);
+  position: relative;
+  transition: all 0.2s;
+  width: 160px;
+  height: 46px;
+  
+}
+#button_css:hover {
+  scale: 1.025;
+  
+}
+.MMYY{
+  width: 40px;
+  font-size: 25px;
+  text-align: center;
+  border: none;
+  border-bottom: 3px solid black;
+  background-color: rgb(255, 255, 255);
+}
+.numberleght {
+width: 75px;
+text-align: center;
+font-size: 25px;
+border: none;
+border-bottom: 3px solid black;
+background-color: rgb(255, 255, 255);
+}
+#button {
+  padding-top: 15px;
+}
+#CVV {
+  width: 60px;
+text-align: center;
+font-size: 25px;
+border: none;
+  border-bottom: 3px solid black;
+  background-color: rgb(255, 255, 255);
+}
+.form-bank1 {
+  padding-bottom: 15px;
+}
+.form-bank2 {
+  display: flex;
+    flex-direction: column;
+}
+#ithree {
+  text-decoration: line-through;
+  color: rgb(99, 99, 99);
+}
+#info_for_connect {
+  background-color: rgb(255, 255, 255);
+  padding-top: 75px;
+}
+#block_info_for_connect {
+  font-family: Benzin-bold;
+  font-size: 35px;
+  color: rgb(0, 0, 0);
+  padding-bottom: 5px;
+  
+}
+#abonimens_block_person_info {
+    display: flex;
+    flex-direction: column;
+}
+.form-example {
+    display: flex;
+    flex-direction: column;
+}
+#block_info_for_connect_naming {
+  font-family: Benzin-bold;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  padding-bottom: 20px;
+  padding-top: 15px;
+}
+#contact_info {
+  display: flex;
+  flex-direction: column;
+}
+#mail_new {
+  font-family: Med;
+  font-size: 25px;
+  background-color: rgb(255, 255, 255);
+  width: 200px;
+}
+#email_new {
+  font-family: Med;
+  font-size: 25px;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 3px solid black;
+  width: 247px;
+}
+#buyer2 {
+  height: 550px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  padding-left: 25px;
+}
+#burger {
+  min-height: 795px;
+  background-image: url(img/yellow-gym-wall-tricep-pushdown.png);
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 125px;
+  padding-top: 125px;
+}
+#way_to_buyer{
+  height: 75px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+#info_for_burger{
+  background-image: ;
+  position: absolute; right: 0;
+  padding-right: 75px;
+  padding-top: 0px;
+  height: 675px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+#block_burger_mavigation_1 {
+  font-family: Benzin-bold;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  padding-bottom: 25px;
+}
+#block_burger_mavigation_2 {
+  font-family: Benzin-bold;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  padding-bottom: 25px;
+}
+#block_burger_mavigation_3 {
+  font-family: Benzin-bold;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  padding-bottom: 25px;
+}
+
+#block_burger_mavigation_4 {
+  font-family: Benzin-bold;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  padding-bottom: 25px;
+}
+
+#block_burger_mavigation_5 {
+  font-family: Benzin-bold;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  padding-bottom: 25px;
+}
+#block_burger_mavigation_6 {
+  font-family: Benzin-bold;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  padding-bottom: 25px;
+}
+#close{
+  padding-bottom: 50px;
+  background:  url(icons/icon_close.svg) no-repeat 0 0;
+  width: 37px;
+  height: 37px;
+  cursor: pointer;
+      transition: all 0.1s 
+ease-in-out;
+}
+
+#close:hover{
+  opacity: 0.6;
+}
+#headertop_burger{
+  height: 115px;
+  background-color: rgb(0, 0, 0);
+}
+#hightheader2{
+  height: 115px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  padding-left: 125px;
+}
+#burgerlogo{
+  display: none;
+}
+#wasap{
+  position: absolute; bottom: 50px;
+}
+#wasap{
+  padding-bottom: 125px;
+}
+#wasap_logo {
+  display: flex;
+  flex-direction: row;
+}
+#footerwasap{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+#number_footer{
+  font-family: Benzin-bold;
+  font-size: 25px;
+  color: white;
+}
+#buger_footer{
+  height: 150px;
+  background-color: rgb(37, 37, 37);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#burgerlogo{
+    color: white;
+}
+#info_for_rassisanie{
+  padding-left: 0px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+#block_rasspisanie{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+}
+#papa_block_rasspisanie_trener {
+  padding-top: 25px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+ align-items: center;
+ justify-content: center;
+  gap: 75px;
+  padding-bottom: 125px;
+}
+#block_rasspisanie_trener {
+  background-color: white;
+  border: 3px solid black;
+  height: 100%;
+  width: 350px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+#block_rasspisanie_trener_name {
+  width: 350px;
+}
+.rasspisanie_trener_name {
+  font-size: 35px;
+  color: rgb(218, 167, 40);
+  font-family: Benzin-bold;
+  padding-bottom: 5px;
+  width: 600px
+}
+.rasspisanie_trener_undername {
+  font-family: Med;
+  font-size: 20px;
+}
+#block_rasspisanie_trenera {
+    height: 300px;
+    padding-left: 50px;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rasspisanie_time_one {
+  font-family: Med;
+  font-size: 20px;
+  
+}
+.rasspisanie_time_two{
+  font-family: Med;
+  font-size: 30px;
+  color: rgb(218, 167, 40);
+}
+.rasspisanie_photo_trenera{
+  height: 300px;
+  padding-left: 50px;
+}
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+    html {
+    margin: 0px;
+    overflow-x: hidden;
+  }
+    #headerTop {
+    height: 115px;
+    background-color: rgb(0, 0, 0);
+  }
+
+  .hightheader {
+    height: 115px;
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 25px;
+
+    & img {
+      color: white;
+    }
+  }
+
+  .fit {
+    display: none;
+  }
+
+  #phoneIcon {
+    display: none;
+  }
+
+  .contact_phone {
+    display: none;
+  }
+
+  #contactPhone:hover {
+    display: none;
+  }
+
+  .timeWorking {
+    display: none;
+  }
+
+  #ContactPhone {
+    display: none;
+  }
+
+  #Watsapp {
+    display: none;
+  }
+
+  #rasspisanie {
+    display: none;
+  }
+
+  #rasspisanie:hover {
+    display: none;
+  }
+
+  #obratzvonoc {
+    display: none;
+  }
+
+  #obratzvonoc:hover {
+    display: none;
+  }
+
+  .tripalki {
+    padding-left: 750px;
+  }
+
+  .tripalki:hover {
+    fill: rgb(172, 172, 172);
+  }
+
+  #block_header_promo {
+    display: flex;
+    align-items: stretch;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #header_promo_img {
+    background-image: url(img/472944927_1000255292233796_1672655395699380595_n.png);
+    background-size: cover;
+    background: ;
+    display: flex;
+    align-items: stretch;
+    position: absolute;
+
+    z-index: -1;
+    top: 0;
+    left: 0;
+  }
+
+  #header_promo_naming {
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header_logo:hover {
+    fill: rgb(172, 172, 172);
+  }
+
+  .naming {
+    font-family: Benzin-bold;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+  }
+
+  .under_naming {
+    font-family: Benzin-bold;
+    font-size: 22px;
+    color: rgb(255, 199, 54);
+    padding-bottom: 25px;
+    text-align: center;
+  }
+
+  .under_naming_info {
+    font-family: Sans;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+
+  #block_general {
+    position: relative;
+    width: 100%;
+    min-height: 450px;
+    display: flex;
+    padding: 20px 10px 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .general_text {
+    font-family: Benzin-bold;
+    color: rgb(255, 199, 54);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+
+  .general_info {
+    font-family: Benzin-bold;
+    text-align: center;
+    justify-content: center;
+  }
+
+  #general_block_info {
+    padding-top: 52px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .general_block {
+    width: 350px;
+    height: 225px;
+    display: flex;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .general_icons {
+    width: 108px;
+    height: 67px;
+    padding-bottom: 20px;
+  }
+
+  #general_icons {
+    width: 108px;
+    height: 60px;
+    padding-bottom: 20px;
+  }
+
+  .general_block_info_text_top {
+    font-family: Benzin-bold;
+    font-size: 18px;
+  }
+
+  .general_block_info_text_down {
+    font-family: Sans;
+    font-size: 15px;
+  }
+
+  #treners_info {
+    position: relative;
+
+    padding: 20px 10px 30px;
+    background-image: url(img/bg_treners.webp);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #treners_photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .treners {
+    width: calc(50% - 15px);
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #treners_name_block {
+    font-family: Benzin-bold;
+    color: rgb(255, 199, 54);
+    font-size: 48px;
+    padding-top: 35px;
+    padding-bottom: 55px;
+    display: flex;
+    justify-content: center;
+  }
+  #treners_photos {
+  display: flex;
+  
+  justify-content: center;
+}
+.treners {
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.2s;
+}
+.treners:hover {
+  scale: 1.025;
+}
+
+.trenes_block_info_top {
+  font-family: Sans;
+  font-size: 14px;
+  color: rgb(255, 199, 54);
+  padding-bottom: 5px;
+}
+.trenes_block_info_down {
+  font-family: Benzin-bold;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+}
+#abonimens {
+  position: relative;
+  width: 100%;
+  min-height: 200px;
+  padding: 20px 0px 30px ;
+  background-color: rgb(255, 199, 54);
+}
+#abonimens_name_block {
+  font-family: Benzin-bold;
+  color: rgb(37, 37, 37);
+  font-size: 35px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  display: flex;
+  justify-content: center;
+}
+#months1 {
+  padding-bottom: 50px;
+}
+.months2 {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.month {
+  font-family: Benzin-bold;
+  font-size: 21px;
+  color: rgb(255, 199, 54);
+  width: 100%;
+  height: 60px;
+  background-color: rgb(37, 37, 37);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.abonimens_BLOCK {
+  gap: 25px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.abonimens_block {
+  width: calc(40% - 12.5px);
+  max-width: 356px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 20px 20px 20px;
+  position: relative;
+  transition: all 0.2s;
+}
+.abonimens_block:hover {
+  scale: 1.025;
+}
+
+#top_abonimens_block_info {
+  position: absolute;
+  top: -10px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+#abonimens_span {
+  background: #010000;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: Sans;
+  font-size: 14px;
+  padding: 3px 20px;
+}
+.abonimens_block_name {
+  font-family: Med;
+  font-size: 26px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+.abonimens_block_info_place {
+  display: flex;
+}
+.abonimens_block_info {
+  display: none;
+}
+.item_abonement .item_list li {
+  padding-left: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  background: url(styles/icon_ok.svg) left center no-repeat;
+}
+.block_oplata {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+#old_block_oplata {
+  font-family: Benzin-bold;
+  font-size: 20px;
+  color: rgb(99, 99, 99);
+  padding-bottom: 20px;
+  text-decoration: line-through;
+}
+.mini_oplata {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.abonimens_block_cost {
+  font-family: Benzin-bold;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  padding-bottom: 20px;
+  text-decoration: underline;
+}
+.abonimens_block_buy_button {
+  font-family: Benzin-bold;
+  font-size: 21px;
+  color: rgb(255, 199, 54);
+  width: 100%;
+  height: 60px;
+  background-color: rgb(37, 37, 37);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mini_oplata :hover {
+  background-color: rgb(69, 69, 69);
+}
+
+#map {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+  padding-bottom: 75px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#map_nazvanie {
+  font-family: Benzin-bold;
+  color: rgb(0, 0, 0);
+  font-size: 35px;
+  padding-top: 35px;
+  padding-bottom: 55px;
+  display: flex;
+  justify-content: center;
+}
+#footer {
+  height: 200px;
+  background-color: rgb(37, 37, 37);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+#highthfooter {
+  display: flex;
+  align-items: right;
+}
+#fit2 {
+  height: 100px;
+}
+
+#footer_text {
+  display: none;
+
+}
+#licenze_footer {
+  font-family: Sans;
+  display: flex;
+  align-items: right;
+}
+
+#lowfooter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  width: 100%;
+  align-items: baseline;
+  
+}
+#licenze_footer {
+  font-family: Sans;
+  font-size: 16px;
+  color: white;
+
+}
+#logos {
+  display: flex;
+  gap: 32px;
+
+  & img {
+      width: 32px;
+      height: 32px;
+    }
+}
+#buyer {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+  padding-bottom: 575px;
+}
+.abonimens_block_info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-family: Med;
+  font-size: 20px;
+  list-style-image: url(styles/icon_ok.svg);
+  line-height: 26px;
+  padding-bottom: 25px;
+}
+#block_way_to_buyer {
+  padding-top: 5px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+#papa {
+  height: 100%
+
+}
+#buyer_abonimens_block {
+  background-color: rgb(255, 199, 54);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 20px 20px 20px;
+  position: relative;
+  transition: all 0.2s;
+  border: 3px solid rgb(0, 0, 0);
+}
+.abonimens_block_info {
+ display: none;
+}
+#abonimens_block_cost_buyer{
+  font-family: Benzin-bold;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  padding-bottom: 20px;
+  padding-top: 15px;
+}
+i2 {
+  text-decoration: underline;
+}
+
+#info_for_buy{
+  background-color: rgb(255, 255, 255);
+  padding-left: 0px;
+  padding-top: 75px;
+}
+
+#block_abonimens_block_cost_naming{
+  font-family: Benzin-bold;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  padding-bottom: 5px;
+}
+#oformlenie {
+  font-family: Sans;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+.name{
+  font-family: Med;
+  font-size: 25px;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 3px solid black;
+}
+#nickname{
+  font-family: Med;
+  font-size: 25px;
+  background-color: rgb(255, 255, 255);
+  
+  
+}
+#email{
+  font-family: Med;
+  font-size: 25px;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 3px solid black;
+}
+#mail{
+  font-family: Med;
+  font-size: 25px;
+  background-color: rgb(255, 255, 255);
+}
+
+#form-example{
+  padding-bottom: 15px;
+}
+.input{
+  border: none;
+}
+#bank {
+  padding: 20px;
+  border: 3px solid black;
+  text-align: left;
+  width: 500px;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+#date {
+  font-family: Med;
+  font-size: 25px;
+  
+}
+#card_number {
+  font-family: Med;
+  font-size: 15px;
+}
+#button_css {
+  font-family: Med;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(37, 37, 37);
+  border: none;
+  border: 3px solid rgb(37, 37, 37);
+  position: relative;
+  transition: all 0.2s;
+  width: 160px;
+  height: 46px;
+  
+}
+#button_css:hover {
+  scale: 1.025;
+  
+}
+.MMYY{
+  width: 40px;
+  font-size: 25px;
+  text-align: center;
+  border: none;
+  border-bottom: 3px solid black;
+  background-color: rgb(255, 255, 255);
+}
+.numberleght {
+width: 75px;
+text-align: center;
+font-size: 25px;
+border: none;
+border-bottom: 3px solid black;
+background-color: rgb(255, 255, 255);
+}
+#button {
+  padding-top: 15px;
+}
+#CVV {
+  width: 60px;
+text-align: center;
+font-size: 25px;
+border: none;
+  border-bottom: 3px solid black;
+  background-color: rgb(255, 255, 255);
+}
+.form-bank1 {
+  padding-bottom: 15px;
+}
+.form-bank2 {
+  display: flex;
+    flex-direction: column;
+}
+#ithree {
+  text-decoration: line-through;
+  color: rgb(99, 99, 99);
+}
+#info_for_connect {
+  background-color: rgb(255, 255, 255);
+  padding-top: 75px;
+}
+#block_info_for_connect {
+  font-family: Benzin-bold;
+  font-size: 35px;
+  color: rgb(0, 0, 0);
+  padding-bottom: 5px;
+  
+}
+#abonimens_block_person_info {
+    display: flex;
+    flex-direction: column;
+}
+.form-example {
+    display: flex;
+    flex-direction: column;
+}
+#block_info_for_connect_naming {
+  font-family: Benzin-bold;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  padding-bottom: 20px;
+  padding-top: 15px;
+}
+#contact_info {
+  display: flex;
+  flex-direction: column;
+}
+#mail_new {
+  font-family: Med;
+  font-size: 25px;
+  background-color: rgb(255, 255, 255);
+  width: 200px;
+}
+#email_new {
+  font-family: Med;
+  font-size: 25px;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 3px solid black;
+  width: 247px;
+}
+#buyer2 {
+  height: 550px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  padding-left: 25px;
+}
+#burger {
+  min-height: 795px;
+  background-image: url(img/yellow-gym-wall-tricep-pushdown.png);
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 125px;
+  padding-top: 125px;
+}
+#way_to_buyer{
+  height: 75px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+#info_for_burger{
+  background-image: ;
+  position: absolute; right: 0;
+  padding-right: 75px;
+  padding-top: 0px;
+  height: 675px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+#block_burger_mavigation_1 {
+  font-family: Benzin-bold;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  padding-bottom: 25px;
+}
+#block_burger_mavigation_2 {
+  font-family: Benzin-bold;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  padding-bottom: 25px;
+}
+#block_burger_mavigation_3 {
+  font-family: Benzin-bold;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  padding-bottom: 25px;
+}
+
+#block_burger_mavigation_4 {
+  font-family: Benzin-bold;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  padding-bottom: 25px;
+}
+
+#block_burger_mavigation_5 {
+  font-family: Benzin-bold;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  padding-bottom: 25px;
+}
+#block_burger_mavigation_6 {
+  font-family: Benzin-bold;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  padding-bottom: 25px;
+}
+#close{
+  padding-bottom: 50px;
+  background:  url(icons/icon_close.svg) no-repeat 0 0;
+  width: 37px;
+  height: 37px;
+  cursor: pointer;
+      transition: all 0.1s 
+ease-in-out;
+}
+
+#close:hover{
+  opacity: 0.6;
+}
+#headertop_burger{
+  height: 115px;
+  background-color: rgb(0, 0, 0);
+}
+#hightheader2{
+  height: 115px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  padding-left: 125px;
+}
+#burgerlogo{
+  display: none;
+}
+#wasap{
+  position: absolute; bottom: 50px;
+}
+#wasap{
+  padding-bottom: 125px;
+}
+#wasap_logo {
+  display: flex;
+  flex-direction: row;
+}
+#footerwasap{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+#number_footer{
+  font-family: Benzin-bold;
+  font-size: 25px;
+  color: white;
+}
+#buger_footer{
+  height: 150px;
+  background-color: rgb(37, 37, 37);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#burgerlogo{
+    color: white;
+}
+#info_for_rassisanie{
+  padding-left: 0px;
+  padding-top: 25px;
+}
+#block_rasspisanie{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+}
+#papa_block_rasspisanie_trener {
+  padding-top: 25px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+ align-items: center;
+ justify-content: center;
+  gap: 75px;
+  padding-bottom: 125px;
+}
+#block_rasspisanie_trener {
+  background-color: white;
+  border: 3px solid black;
+  height: 100%;
+  width: 350px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+#block_rasspisanie_trener_name {
+  width: 350px;
+}
+.rasspisanie_trener_name {
+  font-size: 35px;
+  color: rgb(218, 167, 40);
+  font-family: Benzin-bold;
+  padding-bottom: 5px;
+  width: 600px
+}
+.rasspisanie_trener_undername {
+  font-family: Med;
+  font-size: 20px;
+}
+#block_rasspisanie_trenera {
+    height: 300px;
+    padding-left: 50px;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rasspisanie_time_one {
+  font-family: Med;
+  font-size: 20px;
+  
+}
+.rasspisanie_time_two{
+  font-family: Med;
+  font-size: 30px;
+  color: rgb(218, 167, 40);
+}
+.rasspisanie_photo_trenera{
+  height: 300px;
+  padding-left: 50px;
+}
+  
+}
